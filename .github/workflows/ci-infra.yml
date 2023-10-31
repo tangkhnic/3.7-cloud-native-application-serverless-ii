@@ -5,9 +5,9 @@ on:
     branches:
       - "**"
       - "!main"
-    paths-ignore:
-      - 'app/**'
-      - '.github/workflows/*app.yml'
+    paths:
+      - 'infra/**'
+      - '.github/workflows/ci-infra.yml'
 
 
   workflow_dispatch:
