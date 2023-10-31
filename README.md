@@ -1,1 +1,3 @@
-# capstone-ecs-serverless
+# Architecture
+
+![](./docs/3TierApp.v001.drawio.png)
