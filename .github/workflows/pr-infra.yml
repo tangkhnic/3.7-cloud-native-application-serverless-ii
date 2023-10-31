@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'app/**'
+
 
   workflow_dispatch:
 
@@ -20,7 +23,7 @@ jobs:
     defaults:
       run:
         working-directory: ./infra
-        
+
     steps:
         - uses: actions/checkout@v4
           with:
