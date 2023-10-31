@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - 'app/**'
-      - '.github/workflows/*app.yml'
+    paths:
+      - 'infra/**'
+      - '.github/workflows/merge-infra.yml'
 
 
   workflow_dispatch:
